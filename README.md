@@ -10,3 +10,5 @@
 - *Dogodki* (Naziv, Opis, Čas začetka, Prvo mesto, Drugo mesto, Tretje mesto)
   
 Navaden uporabnik (študent) ima začasno vse funkcionalnosti zaklenjene, saj potrebuje personaliziran pogled.
+
+**Dokumentacija API** : https://emajskeigre.azurewebsites.net/swagger/index.html
