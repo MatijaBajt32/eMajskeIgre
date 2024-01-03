@@ -1,0 +1,17 @@
+@model web.Models.Event
+
+@{
+    ViewData["Title"] = "Joined";
+}
+
+<h1>Join</h1>
+
+<h4>Event</h4>
+<hr />
+<div class="row">
+    <p>You are loged in for event: @Html.DisplayFor(model => model.EventTitle)</p>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

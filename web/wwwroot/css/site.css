@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+a {
+  color: #069926;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+#naslov {
+  color: #069926;
+  font-weight: bold;
+  font-style: italic;
+}
