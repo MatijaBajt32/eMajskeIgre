@@ -55,7 +55,7 @@
     }
 }else{
     @foreach (var item in Model) {
-        <tr>
+        <tr class="items_Events" onclick="window.location.href='@Url.Action("Details", new { id = item.EnrollmentID })';" style="cursor: pointer;">
             <td>
                 @Html.DisplayFor(modelItem => item.EnrollmentDate)
             </td>

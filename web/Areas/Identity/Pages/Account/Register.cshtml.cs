@@ -104,8 +104,8 @@ namespace web.Areas.Identity.Pages.Account
             [DataType(DataType.Text)]
             [Display(Name = "Dormitory")]
             public string Dormitory { get; set; }
-            [DataType(DataType.DateTime)]
-            [Display(Name = "Birth Date")]
+            [DataType(DataType.Text)]
+            [Display(Name = "Birth Date: mm/dd/yyyy")]
             public DateTime BirthDate { get; set; }
 
             [Required]

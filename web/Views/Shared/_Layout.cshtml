@@ -20,31 +20,31 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     @if (SignInManager.IsSignedIn(User)&&User.IsInRole("Administrator")){
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
+                        <li class="nav-item oznac" >
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item oznac">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Students" asp-action="Index">Students</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item oznac">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Events" asp-action="Index">Events</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item oznac">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Enrollments" asp-action="Index">Enrollments</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item oznac">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Dormitories" asp-action="Index">Dormitories</a>
                         </li>
                     </ul>
                         }else if(SignInManager.IsSignedIn(User)&&User.IsInRole("Student")){
                             <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
+                        <li class="nav-item oznac">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item oznac">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Events" asp-action="Index">Events</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item oznac">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Enrollments" asp-action="Index">Enrollments</a>
                         </li>
                     </ul>

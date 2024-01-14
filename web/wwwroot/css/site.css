@@ -31,3 +31,13 @@ a:hover {
   font-weight: bold;
   font-style: italic;
 }
+.items_Events:hover{
+  background-color: #ebebeb;
+
+}
+.oznac:hover{
+  background-color: #ebebeb;
+}
+.oznac:active{
+  background-color: #d1d1d1;
+}

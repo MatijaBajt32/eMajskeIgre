@@ -1,5 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using web.Data;
 using web.Models;
 
 namespace web.Controllers;
@@ -7,15 +9,24 @@ namespace web.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly EMIContext _context;
 
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        return View();
+        if (_context == null)
+    {
+        // Log or handle the null context gracefully
+        return View(new List<Event>());
+    }
+        var events = await _context.Events.ToListAsync();
+
+       
+        return View(events);
     }
 
     public IActionResult Privacy()
