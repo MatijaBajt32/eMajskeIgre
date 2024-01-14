@@ -19,4 +19,5 @@ Navaden uporabnik (študent) se lahko registrira z podatki:
 -  Geslo
 Ob prijavi se mu odklenejo *Dogodki* in *Prijave*. V zavihku Dogodki si lahko študent ogleda nabor dogodkov, ki se bodo odvijali. Za več podrobnosti lahko klikne na dogodek ali pa gumb *Details*. Če mu je dogodek všeč se nanj prijavi z pritiskom na gumb *Join*. Tako se prijava na dogodek vpiše v podatkovno bazo (*Prijave*). Če si želi uporabnik ogledati svoje prijave si lahko to ogleda v zavihku *Prijave*. Tam dobi izpisane personalizirane prijave. V primeru, da si je premislil in se želi odjaviti od dogodka lahko pritisne na gumb *delete*.
 
-**Dokumentacija API** : https://emajskeigre.azurewebsites.net/swagger/index.html
+**Dokumentacija API** : Aplikacija ima tudi dokumentacijo [**API**](https://emajskeigre.azurewebsites.net/swagger/index.html) za študente, dogodke in prijave. Da so podatki zaščiteni je potreben API Key = "SecretKey".
+
