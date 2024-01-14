@@ -101,10 +101,18 @@ namespace web.Controllers
             }
 
             var @event = await _context.Events.FindAsync(id);
+            
 
             
             var userId = _usermanager.GetUserId(User);
             var userAlive = await _usermanager.FindByIdAsync(userId);
+            List<Enrollment> enrollments = _context.Enrollments.ToList();
+            bool studentExists = enrollments.Any(enrollment => enrollment.StudentID == userAlive.StudentId && enrollment.EventID == @event.EventID);
+            if (studentExists)
+            {
+                // Return an error view, or any appropriate response, indicating that the student already exists
+                return View("ErrorView");
+            }
             
             Console.Write("UserID: "+userId);
             _context.Enrollments.Add(new Enrollment{EnrollmentDate=System.DateTime.Now, StudentID=userAlive.StudentId,EventID=@event.EventID});

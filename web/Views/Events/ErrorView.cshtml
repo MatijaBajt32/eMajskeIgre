@@ -1,0 +1,17 @@
+@model web.Models.Event
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1>Error</h1>
+
+<h4>Can't enrolle again</h4>
+<hr />
+<div class="row">
+    <p>You are already enrolled in event: @Html.DisplayFor(model => model.EventTitle)</p>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
