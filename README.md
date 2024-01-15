@@ -9,29 +9,23 @@
 - *Prijave* (Čas prijave, Dogodek, Študent)
 - *Dogodki* (Naziv, Opis, Čas začetka, Prvo mesto, Drugo mesto, Tretje mesto)
   
-Navaden uporabnik (študent) se lahko registrira z podatki:
--  Ime
--  Priimek
--  Mesto
--  Študentski dom
--  Datum rojstva
--  Gmail
--  Geslo
+Navaden uporabnik **Študent** se lahko registrira s podatki:
+-  *Ime*
+-  *Priimek*
+-  *Mesto*
+-  *Študentski dom*
+-  *Datum rojstva*
+-  *Gmail*
+-  *Geslo*
 
-Ob prijavi se mu odklenejo *Dogodki* in *Prijave*. V zavihku Dogodki si lahko študent ogleda nabor dogodkov, ki se bodo odvijali. Za več podrobnosti lahko klikne na dogodek ali pa gumb *Details*. Če mu je dogodek všeč se nanj prijavi z pritiskom na gumb *Join*. Tako se prijava na dogodek vpiše v podatkovno bazo (*Prijave*). Če si želi uporabnik ogledati svoje prijave si lahko to ogleda v zavihku *Prijave*. Tam dobi izpisane personalizirane prijave. V primeru, da si je premislil in se želi odjaviti od dogodka lahko pritisne na gumb *delete*.
+Ob prijavi se mu odklenejo *Dogodki* in *Prijave*. V zavihku Dogodki si lahko študent ogleda nabor dogodkov, ki se bodo odvijali. Za več podrobnosti lahko klikne na dogodek ali pa gumb *Details*. Če mu je dogodek všeč, se nanj prijavi s pritiskom na gumb *Join*. Tako se prijava na dogodek vpiše v relacijo *Prijave*. Če si želi uporabnik ogledati svoje prijave si lahko to ogleda v zavihku *Prijave*. Tam dobi izpisane personalizirane prijave. V primeru, da si je premislil in se želi odjaviti od dogodka lahko pritisne na gumb *delete*.
 
-**Dokumentacija API** : Aplikacija ima tudi dokumentacijo [**API**](https://emajskeigre.azurewebsites.net/swagger/index.html) za študente, dogodke in prijave. Da so podatki zaščiteni je potreben API Key = "SecretKey".
+**Dokumentacija API** : [**API**](https://emajskeigre.azurewebsites.net/swagger/index.html) za entitete *Študent*, *Dogodek* in *Prijave*. Za zaščito podatkov uporabljamo API Key = "SecretKey".
 
-**Podatkovna Baza** : Podatkovno bazo imava v oblaku Azure. Slika spodaj prikazuje podatkovno bazo ustvarjenih tabel. Ker zgradbo AspNetCore.Identity ze poznamo, le teh tabel nisva vključila v sliko z izjemo AspNetUsers saj sva jo povezala z tabelo Students.
+**Podatkovna Baza** : Podatkovno bazo smo posatvili v oblaku Azure. Spodnja slika prikazuje logični model realizirane podatkovne baze brez tabel AspNetCore.Identity z izjemo tabele AspNetUsers, ki smo jo povezali s tabelo Students.
 <div>
   <img src="./images/PodatkovnaBaza.png" alt="Podatkovna baza" >
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-</div>
+</div><br />
 
 **Razdelitev dela**:
 ##### Miha Lazič 
