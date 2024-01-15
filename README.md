@@ -33,6 +33,26 @@ Ob prijavi se mu odklenejo *Dogodki* in *Prijave*. V zavihku Dogodki si lahko š
   <br>
 </div>
 
+**Razdelitev dela**:
+##### Miha Lazič 
+Naredil naloge potrebne za prvo seminarsko nalogo:
+-  Podatkovne baze s pomočjo EntityFramework
+-  Generiranje controllerjev in priprava projekta na nadalno razvijanje
+-  Razširitev aplikacije z avtentikacijo  in avtorizacijo
+-  Pripravil GitHub repository
+  
+
+##### Matija Bajt 
+Nadgradil aplikacijo in naredil android aplikacijo v Android Studiu:
+-  Postavitev spletne aplikacije v oblaku, Azure
+-  Generiranje API controllerjev za tabele Student, Event, Enrollment
+-  Dokumentacija Swagger
+-  Avtentikacija in avtorizacija vmesnika API z ApiKey="SecretKey"
+-  Celotna android aplikacija, ki vsebuje zahtevke GET, POST in DELETE
+
+
+  
+
 
 
 **Zaslonske slike grafičnega vmesnika**
