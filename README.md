@@ -22,7 +22,7 @@ Ob prijavi se mu odklenejo *Dogodki* in *Prijave*. V zavihku Dogodki si lahko š
 
 **Dokumentacija API** : Aplikacija ima tudi dokumentacijo [**API**](https://emajskeigre.azurewebsites.net/swagger/index.html) za študente, dogodke in prijave. Da so podatki zaščiteni je potreben API Key = "SecretKey".
 
-**Podatkovna Baza** : slika spodaj prikazuje podatkovno bazo ustvarjenih tabel. Ker zgradbo AspNetCore.Identity ze poznamo, le teh tabel nisva vključila v sliko z izjemo AspNetUsers saj sva jo povezala z tabelo Students.
+**Podatkovna Baza** : Podatkovno bazo imava v oblaku Azure. Slika spodaj prikazuje podatkovno bazo ustvarjenih tabel. Ker zgradbo AspNetCore.Identity ze poznamo, le teh tabel nisva vključila v sliko z izjemo AspNetUsers saj sva jo povezala z tabelo Students.
 <div>
   <img src="./images/PodatkovnaBaza.png" alt="Podatkovna baza" >
   <br>
