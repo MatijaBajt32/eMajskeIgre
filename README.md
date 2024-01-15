@@ -22,49 +22,74 @@ Ob prijavi se mu odklenejo *Dogodki* in *Prijave*. V zavihku Dogodki si lahko š
 
 **Dokumentacija API** : Aplikacija ima tudi dokumentacijo [**API**](https://emajskeigre.azurewebsites.net/swagger/index.html) za študente, dogodke in prijave. Da so podatki zaščiteni je potreben API Key = "SecretKey".
 
-
+**Podatkovna Baza** : slika spodaj prikazuje podatkovno bazo ustvarjenih tabel. Ker zgradbo AspNetCore.Identity ze poznamo, le teh tabel nisva vključila v sliko z izjemo AspNetUsers saj sva jo povezala z tabelo Students.
 <div>
-  <p><em><b>Slika 1: Home View Organizator</b></em></p>
-  <img src="./images/HomeOrganizator.png" alt="Local Image" >
+  <img src="./images/PodatkovnaBaza.png" alt="Podatkovna baza" >
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   <br>
 </div>
 
+
+
+**Zaslonske slike grafičnega vmesnika**
+
+##### Slika 1: Home View Organizator
+
 <div>
-  <p><em><b>Slika 2: Home View Studen</b></em></p>
-  <img src="./images/HomeStudent.png" alt="Local Image" >
-  <br>
-</div>
-<div>
-  <p><em><b>Slika 3: Events View Organizator</b></em></p>
-  <img src="./images/EventsOrganizator.png" alt="Local Image" >
+  <img src="./images/HomeOrganizator.png" alt="HomeOrganizator" >
   <br>
 </div>
 
+##### Slika 2: Home View Student
+
 <div>
-  <p><em><b>Slika 4: Events View Student</b></em></p>
-  <img src="./images/EventsStudent.png" alt="Local Image" >
-  <br>
-</div>
-<div>
-  <p><em><b>Slika 5</b>: Enrollments View Organizator</b></em></p>
-  <img src="./images/EnrollmentsOrganizator.png" alt="Local Image" >
+  <img src="./images/HomeStudent.png" alt="HomeStudent" >
   <br>
 </div>
 
+##### Slika 3: Events View Organizator
+
 <div>
-  <p><em><b>Slika 6: Enrollments View Student</b></em></p>
-  <img src="./images/EnrollmentsStudent.png" alt="Local Image" >
-  <br>
-</div>
-<div>
-  <p><em><b>Slika 7: Dormitory View Organizator</b></em></p>
-  <img src="./images/DormitoryOrganizator.png" alt="Local Image" >
+  <img src="./images/EventsOrganizator.png" alt="EventsOrganizator" >
   <br>
 </div>
 
+##### Slika 4: Events View Student
+
 <div>
-  <p><em><b>Slika 8: Students View Student</b></em></p>
-  <img src="./images/StudentsOrganizator.png" alt="Local Image" >
+  <img src="./images/EventsStudent.png" alt="EventsStudent" >
+  <br>
+</div>
+
+##### Slika 5: Enrollments View Organizator
+
+<div>
+  <img src="./images/EnrollmentsOrganizator.png" alt="EnrollmentsOrganizator" >
+  <br>
+</div>
+
+##### Slika 6: Enrollments View Student
+
+<div>
+  <img src="./images/EnrollmentsStudent.png" alt="EnrollmentsStudent" >
+  <br>
+</div>
+
+##### Slika 7: Dormitory View Organizator
+
+<div>
+  <img src="./images/DormitoryOrganizator.png" alt="DormitoryOrganizator" >
+  <br>
+</div>
+
+##### Slika 8: Students View Student
+
+<div>
+  <img src="./images/StudentsOrganizator.png" alt="StudentsOrganizator" >
   <br>
 </div>
 
