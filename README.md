@@ -42,12 +42,16 @@ Ob prijavi se mu odklenejo *Dogodki* in *Prijave*. V zavihku Dogodki si lahko š
 <div>
   <img src="./images/HomeOrganizator.png" alt="HomeOrganizator" >
   <br>
+  <br>
+  <br>
 </div>
 
 ##### Slika 2: Home View Student
 
 <div>
   <img src="./images/HomeStudent.png" alt="HomeStudent" >
+  <br>
+  <br>
   <br>
 </div>
 
@@ -56,12 +60,16 @@ Ob prijavi se mu odklenejo *Dogodki* in *Prijave*. V zavihku Dogodki si lahko š
 <div>
   <img src="./images/EventsOrganizator.png" alt="EventsOrganizator" >
   <br>
+  <br>
+  <br>
 </div>
 
 ##### Slika 4: Events View Student
 
 <div>
   <img src="./images/EventsStudent.png" alt="EventsStudent" >
+  <br>
+  <br>
   <br>
 </div>
 
@@ -70,6 +78,8 @@ Ob prijavi se mu odklenejo *Dogodki* in *Prijave*. V zavihku Dogodki si lahko š
 <div>
   <img src="./images/EnrollmentsOrganizator.png" alt="EnrollmentsOrganizator" >
   <br>
+  <br>
+  <br>
 </div>
 
 ##### Slika 6: Enrollments View Student
@@ -77,12 +87,16 @@ Ob prijavi se mu odklenejo *Dogodki* in *Prijave*. V zavihku Dogodki si lahko š
 <div>
   <img src="./images/EnrollmentsStudent.png" alt="EnrollmentsStudent" >
   <br>
+  <br>
+  <br>
 </div>
 
 ##### Slika 7: Dormitory View Organizator
 
 <div>
   <img src="./images/DormitoryOrganizator.png" alt="DormitoryOrganizator" >
+  <br>
+  <br>
   <br>
 </div>
 
