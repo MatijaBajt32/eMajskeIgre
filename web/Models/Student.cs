@@ -10,7 +10,7 @@ namespace web.Models
         public string? EnrollmentNumber {get; set;}
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
-        public DateTime BirthDate { get; set; }
+        public DateTime? BirthDate { get; set; }
         public int? Points { get; set; }
         public int DormitoryID { get; set; }
 
