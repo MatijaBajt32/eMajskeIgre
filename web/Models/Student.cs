@@ -13,6 +13,7 @@ namespace web.Models
         public DateTime? BirthDate { get; set; }
         public int? Points { get; set; }
         public int DormitoryID { get; set; }
+        public string? PasswordAndroid { get; set;}
 
         public ICollection<Enrollment>? Enrollments { get; set; }
     }
